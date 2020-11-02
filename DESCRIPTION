@@ -36,7 +36,8 @@ Suggests:
     purrr,
     gridExtra,
     reshape2,
-    tidytext
+    tidytext,
+    covr
 LinkingTo: 
     Rcpp,
     RcppArmadillo
