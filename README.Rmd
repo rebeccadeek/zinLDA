@@ -16,6 +16,7 @@ knitr::opts_chunk$set(
 # `zinLDA`: Zero-Inflated Latent Dirichlet Allocation
 
 <!-- badges: start -->
+[![Travis build status](https://travis-ci.com/rebeccadeek/zinLDA.svg?branch=master)](https://travis-ci.com/rebeccadeek/zinLDA)
 <!-- badges: end -->
 
 ## About
