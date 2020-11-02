@@ -1,0 +1,43 @@
+Package: zinLDA
+Title: Zero-Inflated Latent Dirichlet Allocation
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Rebecca A.",
+           family = "Deek",
+           role = c("aut", "cre"),
+           email = "rebecca.deek@pennmedicine.upenn.edu",
+           comment = c(ORCID = "0000-0002-8783-4694"))
+Description: Zero-inflated latent Dirichlet allocation (zinLDA) is an unsupervised, tri-
+    level, hierarchical Bayesian model that facilitates detection of sparse latent 
+    clusters. This package provides implementation of a Markov chain Monte Carlo (MCMC) 
+    sampling procedure for a zinLDA model. Additionally, it provides a method for 
+    simulating sparse count data from an underlying zinLDA model.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Imports: 
+    stats,
+    MCMCpack,
+    pbapply,
+    topicmodels,
+    tibble,
+    Rcpp,
+    RcppArmadillo,
+    utils,
+    magrittr
+Suggests: 
+    testthat,
+    knitr,
+    rmarkdown,
+    dplyr,
+    ggplot2,
+    purrr,
+    gridExtra,
+    reshape2,
+    tidytext
+LinkingTo: 
+    Rcpp,
+    RcppArmadillo
+VignetteBuilder: knitr
