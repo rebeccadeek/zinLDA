@@ -8,3 +8,9 @@ addons:
   apt:
     packages:
       - libgsl0-dev # for topicmodels
+
+r_packages:
+  - covr
+
+after_success:
+  - Rscript -e 'library(covr); codecov()'
