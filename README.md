@@ -55,7 +55,8 @@ devtools::install_github("rebeccadeek/zinLDA", build_vignettes = TRUE)
 vignette(package = "zinLDA")
 ```
 
-Alternatively, there is a companion website that contains the same
+Alternatively, there is a companion
+[website](https://rebeccadeek.github.io/zinLDA/) that contains the same
 statistical details and examples as the vignette.
 
 ## Contact
