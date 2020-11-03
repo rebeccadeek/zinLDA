@@ -5,6 +5,10 @@
 
 <!-- badges: start -->
 
+[![Travis build
+status](https://travis-ci.com/rebeccadeek/zinLDA.svg?branch=master)](https://travis-ci.com/rebeccadeek/zinLDA)
+[![Codecov test
+coverage](https://codecov.io/gh/rebeccadeek/zinLDA/branch/master/graph/badge.svg)](https://codecov.io/gh/rebeccadeek/zinLDA?branch=master)
 <!-- badges: end -->
 
 ## About
